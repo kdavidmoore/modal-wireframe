@@ -1,0 +1,33 @@
+.header {
+	padding-bottom: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+#footer {
+	background-color: #d0d0d0;
+}
+
+img {
+	width: 100%;
+}
+
+.modal-dialog {
+  width: 100%
+}
+
+#quick-links h6 a {
+	text-decoration: underline;
+}
+
+#copyright {
+	padding: 10px;
+}
