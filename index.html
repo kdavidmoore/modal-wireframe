@@ -36,7 +36,7 @@
       <div class="row">
         <div class="col-md-12">
           <a data-toggle="modal" data-target="#myModal" href="img/image1.jpg">
-            <img class="launch-modal" src="img/image1.jpg"></a>
+            <img class="launch-modal" name="Big Image" src="img/image1.jpg"></a>
         </div>
       </div>
       <div class="row">
@@ -57,28 +57,28 @@
       <div id="items" class="row">
         <div class="col-md-3 col-xs-6">
           <a data-toggle="modal" data-target="#myModal" href="img/image2.jpg">
-          <img class="launch-modal two" src="img/image2.jpg"></a>
-          <h4 class="two">Item Title</h4>
+          <img class="launch-modal" name="Item One" src="img/image2.jpg"></a>
+          <h4>Item Title</h4>
           <p>Item Category</p>
           <p>$88.00</p>
         </div>
         <div class="col-md-3 col-xs-6">
           <a data-toggle="modal" data-target="#myModal" href="img/image3.jpg">
-            <img class="launch-modal three" src="img/image3.jpg"></a>
+            <img class="launch-modal" name="Item Two" src="img/image3.jpg"></a>
           <h4 class="three">Item Title</h4>
           <p>Item Category</p>
           <p>$88.00</p>
         </div>
         <div class="col-md-3 col-xs-6">
           <a data-toggle="modal" data-target="#myModal" href="img/image4.jpg">
-            <img class="launch-modal four" src="img/image4.jpg"></a>
+            <img class="launch-modal" name="Item Three" src="img/image4.jpg"></a>
           <h4 class="four">Item Title</h4>
           <p>Item Category</p>
           <p>$88.00</p>
         </div>
         <div class="col-md-3 col-xs-6">
           <a data-toggle="modal" data-target="#myModal" href="img/image5.jpg">
-            <img class="launch-modal five" src="img/image5.jpg"></a>
+            <img class="launch-modal" name="Item Four" src="img/image5.jpg"></a>
           <h4 class="five">Item Title</h4>
           <p>Item Category</p>
           <p>$88.00</p>
@@ -105,7 +105,7 @@
         <div class="col-md-3 col-xs-12">
           <h4 class="six">Coming Soon</h4>
           <a data-toggle="modal" data-target="#myModal" href="img/image5.jpg">
-            <img class="launch-modal six" src="img/image5.jpg"></a>
+            <img class="launch-modal" name="Coming Soon" src="img/image5.jpg"></a>
         </div>
       </div>
     </div>
@@ -139,8 +139,8 @@
       var currImage = $(this).attr('src');
       console.log(currImage);
       $('.modal-body').html('<iframe width="700px" height="400px" frameborder="0" allowtransparency="true" src="' + currImage + '"></iframe>');
-      var currCaption = $(this).attr('');
-      $('.modal-title').html('');
+      var currCaption = $(this).attr('name');
+      $('.modal-title').html(currCaption);
     });
 
     </script>
