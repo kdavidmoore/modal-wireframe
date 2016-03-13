@@ -1,15 +1,9 @@
-.header {
-	padding-bottom: 20px;
+.navbar-brand {
+	font-size: 2em;
 }
 
-ul {
-	list-style-type: none;
-}
-
-li {
-	float: left;
-	margin-top: 20px;
-	margin-left: 30px;
+.container.top {
+	padding-top: 10px;
 }
 
 #footer {

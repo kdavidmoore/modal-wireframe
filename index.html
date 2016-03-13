@@ -18,115 +18,126 @@
     <link rel="stylesheet" type="text/css" href="custom.css">
   </head>
   <body>
-    <div class="container">
-      <div class="row header">
-        <div class="col-md-5">
-          <h2>A Big Title</h2>
-        </div>
-        <div class="col-md-7">
-          <ul id="top-links">
-            <li>Home</li>
-            <li>Event</li>
-            <li>Accessories</li>
-            <li>Apparel</li>
-            <li>Featured Items</li>
-          </ul>
-        </div>
-      </div> <!-- end of row 1 -->
-      <div class="row">
-        <div class="col-md-12">
-          <a data-toggle="modal" data-target="#myModal" href="img/image1.jpg">
-            <img class="launch-modal" name="Big Image" src="img/image1.jpg"></a>
-        </div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#wireframe-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">A Big Title</a>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Intro Copy Headline</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-      <div id="items" class="row">
-        <div class="col-md-3 col-xs-6">
-          <a data-toggle="modal" data-target="#myModal" href="img/image2.jpg">
-          <img class="launch-modal" name="Item One" src="img/image2.jpg"></a>
-          <h4>Item Title</h4>
-          <p>Item Category</p>
-          <p>$88.00</p>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <a data-toggle="modal" data-target="#myModal" href="img/image3.jpg">
-            <img class="launch-modal" name="Item Two" src="img/image3.jpg"></a>
-          <h4 class="three">Item Title</h4>
-          <p>Item Category</p>
-          <p>$88.00</p>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <a data-toggle="modal" data-target="#myModal" href="img/image4.jpg">
-            <img class="launch-modal" name="Item Three" src="img/image4.jpg"></a>
-          <h4 class="four">Item Title</h4>
-          <p>Item Category</p>
-          <p>$88.00</p>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <a data-toggle="modal" data-target="#myModal" href="img/image5.jpg">
-            <img class="launch-modal" name="Item Four" src="img/image5.jpg"></a>
-          <h4 class="five">Item Title</h4>
-          <p>Item Category</p>
-          <p>$88.00</p>
-        </div>
-      </div>
-      <div class="row">
-      <div id="footer" class="container">
-        <div id="quick-links" class="col-md-3 col-xs-12">
-          <h4>Quick Links</h4>
-          <h6><a href="#">Home</a></h6>
-          <h6><a href="#">Event</a></h6>
-          <h6><a href="#">Support</a></h6>
-          <h6><a href="#">Contact</a></h6>
-        </div>
-        <div class="col-md-6 col-xs-12">
-          <h4>Announcements / Promoted Content</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="col-md-3 col-xs-12">
-          <h4 class="six">Coming Soon</h4>
-          <a data-toggle="modal" data-target="#myModal" href="img/image5.jpg">
-            <img class="launch-modal" name="Coming Soon" src="img/image5.jpg"></a>
-        </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="wireframe-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Event</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Apparel</a></li>
+          <li><a href="#">Featured Items</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="container top">
+    <div class="row">
+      <div class="col-md-12">
+        <a data-toggle="modal" data-target="#myModal" href="img/image1.jpg">
+          <img class="launch-modal" name="Big Image" src="img/image1.jpg"></a>
       </div>
     </div>
-    <div class="row text-center">
-      <p id="copyright">&copy;2012 AcmeWidgets. All Rights Reserved. Support: Support@AcmeWidgets.com</p>
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Intro Copy Headline</h2>
+      </div>
     </div>
-
-    <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Modal title</h4>
-          </div>
-          <div class="modal-body text-center">
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
+    <div class="row">
+      <div class="col-md-12">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <div id="items" class="row">
+      <div class="col-md-3 col-xs-6">
+        <a data-toggle="modal" data-target="#myModal" href="img/image2.jpg">
+        <img class="launch-modal" name="Item One" src="img/image2.jpg"></a>
+        <h4>Item Title</h4>
+        <p>Item Category</p>
+        <p>$88.00</p>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <a data-toggle="modal" data-target="#myModal" href="img/image3.jpg">
+          <img class="launch-modal" name="Item Two" src="img/image3.jpg"></a>
+        <h4 class="three">Item Title</h4>
+        <p>Item Category</p>
+        <p>$88.00</p>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <a data-toggle="modal" data-target="#myModal" href="img/image4.jpg">
+          <img class="launch-modal" name="Item Three" src="img/image4.jpg"></a>
+        <h4 class="four">Item Title</h4>
+        <p>Item Category</p>
+        <p>$88.00</p>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <a data-toggle="modal" data-target="#myModal" href="img/image5.jpg">
+          <img class="launch-modal" name="Item Four" src="img/image5.jpg"></a>
+        <h4 class="five">Item Title</h4>
+        <p>Item Category</p>
+        <p>$88.00</p>
+      </div>
+    </div>
+    <div class="row">
+    <div id="footer" class="container">
+      <div id="quick-links" class="col-md-3 col-xs-12">
+        <h4>Quick Links</h4>
+        <h6><a href="#">Home</a></h6>
+        <h6><a href="#">Event</a></h6>
+        <h6><a href="#">Support</a></h6>
+        <h6><a href="#">Contact</a></h6>
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <h4>Announcements / Promoted Content</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="col-md-3 col-xs-12">
+        <h4 class="six">Coming Soon</h4>
+        <a data-toggle="modal" data-target="#myModal" href="img/image5.jpg">
+          <img class="launch-modal" name="Coming Soon" src="img/image5.jpg"></a>
+      </div>
+    </div>
   </div>
+  <div class="row text-center">
+    <p id="copyright">&copy;2012 AcmeWidgets. All Rights Reserved. Support: Support@AcmeWidgets.com</p>
+  </div>
+
+  <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Modal title</h4>
+        </div>
+        <div class="modal-body text-center">
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
